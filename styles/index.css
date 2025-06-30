@@ -24,3 +24,14 @@ a{
 nav li:hover{
     background-color: red;
 }
+
+/* nested menu style */
+
+nav li .dropclass{
+    display: none;
+    position: absolute;
+}
+
+nav li:hover .dropclass{
+    display: block;
+}
